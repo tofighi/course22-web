@@ -20,14 +20,14 @@ website:
   reader-mode: true
   page-navigation: true
   repo-branch: master
-  repo-url: https://github.com/fastai/course22-web
+  repo-url: https://github.com/tofighi/course22-web
   repo-actions: [issue]
   navbar:
     background: primary
     search: true
     right:
       - icon: github
-        href: https://github.com/fastai/course22
+        href: https://github.com/tofighi/course22
   sidebar:
     style: "floating"
 
