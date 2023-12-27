@@ -5,9 +5,12 @@ image: /images/course2022p2l1.jpg
 
 In this course, containing over 30 hours of video content, we implement the astounding [Stable Diffusion](https://stability.ai/blog/stable-diffusion-public-release) algorithm from scratch! That's the [killer app](https://www.pcworld.com/article/916785/creating-ai-art-local-pc-stable-diffusion.html) that made the [internet freak out](https://devops.com/stable-diffusion-public-richixbw/), and caused the media to say "[you may never believe what you see online again](https://arstechnica.com/information-technology/2022/09/with-stable-diffusion-you-may-never-believe-what-you-see-online-again/)".
 
+## Part 1
 We've worked closely with experts from Stability.ai and Hugging Face (creators of the Diffusers library) to ensure we have rigorous coverage of the latest techniques. The course includes coverage of papers that were released after Stable Diffusion came out -- so it actually goes well beyond even what Stable Diffusion includes! We also explain how to read research papers, and practice this skill by studying and implementing many papers throughout the course.
 
 ![Stable diffusion generated image](diffusion.png){.border .preview-image}
+
+## Part 2
 
 Stable diffusion, and diffusion methods in general, are a great learning goal for many reasons. For one thing, of course, you can create amazing stuff with these algorithms! To really take the technique to the next level, and create things that no-one has seen before, you need to really deeply understand what's happening under the hood. With this understanding, you can craft your own loss functions, initialization methods, multi-model mixups, and more, to create totally new applications that have never been seen before. Just as important: it's a great learning goal because nearly every key technique in modern deep learning comes together in these methods. Contrastive learning, transformer models, auto-encoders, CLIP embeddings, latent variables, u-nets, resnets, and much more are involved in creating a single image.
 
@@ -15,7 +18,7 @@ To get the most out of this course, you should be a reasonably confident deep le
 
 > [Get started](lesson9.qmd) now!
 
-## Content summary
+## Content Summary
 
 In this course, we'll explore diffusion methods such as Denoising Diffusion Probabilistic Models (DDPM) and Denoising Diffusion Implicit Models (DDIM). We'll get our hands dirty implementing unconditional and conditional diffusion models, experimenting with different samplers, and diving into recent tricks like textual inversion and Dreambooth.
 
