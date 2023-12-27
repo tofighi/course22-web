@@ -3,6 +3,8 @@ website:
     contents:
       - index.qmd
       - section: Part 0
+          contents:
+          - Lessons/contents/preface.qmd
       - section: Part 1
         contents:
           - Lessons/lesson1.qmd
