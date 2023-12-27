@@ -17,6 +17,10 @@ website:
   repo-branch: master
   repo-url: https://github.com/tofighi/course22-web
   repo-actions: [edit, issue, source]
+  sharing: [twitter, facebook]
+  reader-mode: true
+  cover-image: cover.png
+  favicon: favicon.png
   navbar:
     background: primary
     search: true
@@ -29,11 +33,11 @@ website:
     border: false
     pinned: true
 
-page-footer:
-  left: |
-    Course
-  right: |
-    This book was built with <a href="https://quarto.org/">Quarto</a>.
+  page-footer:
+    left: |
+      Course
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
 
 
 format:
