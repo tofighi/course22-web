@@ -34,6 +34,35 @@ website:
     border: false
     pinned: true
 
+format:
+  html:
+    theme: 
+      light:
+        - cosmo
+        - style.scss
+        - style-light.scss
+      dark:
+        - darkly
+        - style.scss
+        - style-dark.scss
+    mainfont: Nunito
+    highlight-style: github
+    code-link: true
+    link-external-icon: false
+    link-external-newwindow: true
+    callout-appearance: simple
+    anchor-sections: true
+    smooth-scroll: false
+    citations-hover: false
+    footnotes-hover: false
+    fig-width: 8
+    fig-height: 6
+    number-depth: 3
+    toc: true
+    toc-depth: 4	
+    include-in-header:
+      text: <script async src="https://www.googletagmanager.com/gtag/js?id=G-aaaa"></script>
+
 editor:
   render-on-save: true
 
