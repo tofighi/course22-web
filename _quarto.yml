@@ -9,7 +9,7 @@ project:
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: styles.scss
     toc: true
 
 website:
@@ -21,7 +21,7 @@ website:
   page-navigation: true
   repo-branch: master
   repo-url: https://github.com/tofighi/course22-web
-  repo-actions: [issue]
+  repo-actions: [edit, issue, source]
   navbar:
     background: primary
     search: true
@@ -33,6 +33,9 @@ website:
     collapse-level: 2
     border: false
     pinned: true
+
+editor:
+  render-on-save: true
 
 execute:
   freeze: auto
