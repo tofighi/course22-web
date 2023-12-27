@@ -17,7 +17,6 @@ website:
   repo-branch: master
   repo-url: https://github.com/tofighi/course22-web
   repo-actions: [edit, issue, source]
-  sharing: [twitter, facebook]
   favicon: favicon.png
   navbar:
     background: primary
