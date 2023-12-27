@@ -29,6 +29,13 @@ website:
     border: false
     pinned: true
 
+page-footer:
+  left: |
+    Course
+  right: |
+    This book was built with <a href="https://quarto.org/">Quarto</a>.
+
+
 format:
   html:
     theme: 
