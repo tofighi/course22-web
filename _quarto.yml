@@ -1,5 +1,5 @@
 project:
-  type: book
+  type: website
   resources:
     - "www/*"
   preview:
