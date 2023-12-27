@@ -27,7 +27,7 @@ website:
     search: true
     right:
       - icon: github
-        href: https://github.com/tofighi/course22
+        href: https://github.com/tofighi/course22-web
   sidebar:
     style: "floating"
 
