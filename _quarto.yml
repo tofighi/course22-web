@@ -6,11 +6,6 @@ project:
     port: 3000
     browser: false
 
-format:
-  html:
-    theme: cosmo
-    css: styles.scss
-    toc: true
 
 website:
   title: "Practical Deep Learning for Coders"
