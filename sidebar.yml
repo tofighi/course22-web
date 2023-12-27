@@ -3,7 +3,7 @@ website:
     contents:
       - index.qmd
       - section: Part 0
-          contents:
+        contents:
           - Lessons/contents/preface.qmd
       - section: Part 1
         contents:
