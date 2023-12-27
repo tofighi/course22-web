@@ -1,16 +1,27 @@
 project:
-  type: website
-  resources:
-    - "www/*"
+  type: book
+  output-dir: _book
   preview:
-    port: 3000
-    browser: false
+    browser: true
+    navigate: true
+  render: 
+    - "*.qmd"
 
-format:
-  html:
-    theme: cosmo
-    css: styles.scss
-    toc: true
+title-prefix: "noprefix"
+
+    
+book:
+  navbar:
+    search: true
+    pinned: true
+    collapse: true
+    back-to-top-navigation: true
+
+  sidebar:
+    search: true
+    collapse-level: 2
+    border: false
+    pinned: true
 
 website:
   title: "Practical Deep Learning for Coders"
