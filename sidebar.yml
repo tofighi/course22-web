@@ -2,6 +2,7 @@ website:
   sidebar:
     contents:
       - index.qmd
+      - section: Part 0
       - section: Part 1
         contents:
           - Lessons/lesson1.qmd
