@@ -84,5 +84,3 @@ editor:
 execute:
   freeze: auto
 
-metadata-files:
-  - sidebar.yml
