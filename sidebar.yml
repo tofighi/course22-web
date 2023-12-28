@@ -18,7 +18,7 @@ website:
           - Lessons/lesson7.qmd
           - Lessons/lesson8.qmd
           - Lessons/lesson8a.qmd
-          - contents: Summaries
+          - section: Summaries
             contents:
               - Lessons/Summaries/lesson1.qmd
               - Lessons/Summaries/lesson2.qmd
