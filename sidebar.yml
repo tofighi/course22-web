@@ -8,7 +8,7 @@ website:
           - Lessons/contents/preface.qmd
       - text: "---"
       - section: Part 1
-        contents:
+        chapters:
           - Lessons/lesson1.qmd
           - Lessons/lesson2.qmd
           - Lessons/lesson3.qmd
@@ -18,7 +18,7 @@ website:
           - Lessons/lesson7.qmd
           - Lessons/lesson8.qmd
           - Lessons/lesson8a.qmd
-          - section: Summaries
+          - chapters: Summaries
             contents:
               - Lessons/Summaries/lesson1.qmd
               - Lessons/Summaries/lesson2.qmd
