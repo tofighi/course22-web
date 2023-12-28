@@ -1,4 +1,9 @@
-# Template
+---
+title: "Template"
+format: html
+comments:
+  hypothesis: true
+---
 
 :::{.callout-tip}
 ## New!
@@ -87,12 +92,7 @@ In essence, a thorough comparative analysis transcends numerical metrics. It's a
 $$\color{red}{X \sim Normal \; (\mu,\sigma^2)}$$
 
 
----
-title: "HTML Basics"
-format: html
-comments:
-  hypothesis: true
----
+
 
 ## Overview
 
