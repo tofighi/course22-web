@@ -6,35 +6,47 @@ project:
     port: 3000
     browser: false
 
-
-website:
-  title: "Practical Deep Learning for Coders"
-  description: "Learn Deep Learning with fastai and PyTorch, 2022"
-  twitter-card: true
-  open-graph: true
-  reader-mode: true
-  page-navigation: true
-  repo-branch: master
-  repo-url: https://github.com/tofighi/course22-web
-  repo-actions: [edit, issue, source]
-  favicon: favicon.png
+book:
   navbar:
-    background: primary
     search: true
-    right:
-      - icon: github
-        href: https://github.com/tofighi/course22-web
+    pinned: true
+    collapse: true
+    back-to-top-navigation: true
+
   sidebar:
     search: true
     collapse-level: 2
     border: false
     pinned: true
 
+  page-navigation: true
+  title: "Title"
+  subtitle: "with TinyML"
+  abstract: "offers readers an entry point to understand comprehensive machine learning systems by grounding concepts in accessible TinyML applications. As resource-constrained edge computing sees rapid expansion, the ability to construct efficient ML pipelines grows crucial. This book aims to demystify the process of developing complete ML systems suitable for deployment - spanning key phases like data collection, model design, optimization, acceleration, security hardening, and integration. The text touches on the full breadth of concepts relevant to general ML engineering across industries and applications through the lens of TinyML. Readers will learn basic principles around designing ML model architectures, hardware-aware training strategies, performant inference optimization, benchmarking methodologies and more. Additionally, crucial systems considerations in areas like reliability, privacy, responsible AI, and solution validation are also explored in depth. In summary, the book strives to equip newcomers and professionals alike with integrated knowledge covering full stack ML system development, using easily accessible TinyML applications as the vehicle to impart universal concepts required to unlock production ML."
+
+  search: true
+  repo-url: https://github.com/tofighi/course22-web
+  repo-actions: [edit, issue, source]
+  sharing: [twitter, facebook]
+  reader-mode: true
+  cover-image: cover.png
+  favicon: favicon.png
   page-footer:
     left: |
-      Course
+      left comment
     right: |
-      This book was built with <a href="https://quarto.org/">Quarto</a>.
+      right comment.
+
+  chapters:
+    - text: "---"
+    - part: FRONT MATTER
+      chapters:
+      - index.qmd
+
+citation: true
+
+reference-location: margin
+citation-location: margin
 
 
 format:
