@@ -2,12 +2,12 @@ website:
   sidebar:
     contents:
       - index.qmd
+      - text: "---"
       - section: Part 0
         contents:
           - Lessons/contents/preface.qmd
       - text: "---"
       - section: Part 1
-      - text: "---"
         contents:
           - Lessons/lesson1.qmd
           - Lessons/lesson2.qmd
