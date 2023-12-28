@@ -470,8 +470,6 @@ comments: false
 
 ## Includes
 
-{{< include _document-options-includes.md >}}
-
 For example:
 
 ``` yaml
